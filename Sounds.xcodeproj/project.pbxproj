@@ -12,6 +12,34 @@
 		9D476DDD1B623E9200FE1CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DDB1B623E9200FE1CFC /* Main.storyboard */; };
 		9D476DDF1B623E9200FE1CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DDE1B623E9200FE1CFC /* Assets.xcassets */; };
 		9D476DE21B623E9200FE1CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DE01B623E9200FE1CFC /* LaunchScreen.storyboard */; };
+		9D476E061B6241D300FE1CFC /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DEA1B6241D300FE1CFC /* Cat.wav */; };
+		9D476E071B6241D300FE1CFC /* chicken.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DEB1B6241D300FE1CFC /* chicken.wav */; };
+		9D476E081B6241D300FE1CFC /* chimpanzee.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DEC1B6241D300FE1CFC /* chimpanzee.wav */; };
+		9D476E091B6241D300FE1CFC /* cow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DED1B6241D300FE1CFC /* cow.wav */; };
+		9D476E0A1B6241D300FE1CFC /* crow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DEE1B6241D300FE1CFC /* crow.wav */; };
+		9D476E0B1B6241D300FE1CFC /* dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DEF1B6241D300FE1CFC /* dog.wav */; };
+		9D476E0C1B6241D300FE1CFC /* duck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DF01B6241D300FE1CFC /* duck.wav */; };
+		9D476E0D1B6241D300FE1CFC /* elephant.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DF11B6241D300FE1CFC /* elephant.wav */; };
+		9D476E0E1B6241D300FE1CFC /* goat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DF21B6241D300FE1CFC /* goat.wav */; };
+		9D476E0F1B6241D300FE1CFC /* gorilla.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DF31B6241D300FE1CFC /* gorilla.wav */; };
+		9D476E101B6241D300FE1CFC /* horse.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DF41B6241D300FE1CFC /* horse.wav */; };
+		9D476E111B6241D300FE1CFC /* leopard.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DF51B6241D300FE1CFC /* leopard.wav */; };
+		9D476E131B6241D300FE1CFC /* mosquito.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DF71B6241D300FE1CFC /* mosquito.wav */; };
+		9D476E141B6241D300FE1CFC /* nigtingale.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DF81B6241D300FE1CFC /* nigtingale.wav */; };
+		9D476E151B6241D300FE1CFC /* owl.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DF91B6241D300FE1CFC /* owl.wav */; };
+		9D476E161B6241D300FE1CFC /* peocock.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DFA1B6241D300FE1CFC /* peocock.wav */; };
+		9D476E171B6241D300FE1CFC /* pig.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DFB1B6241D300FE1CFC /* pig.wav */; };
+		9D476E181B6241D300FE1CFC /* pigones.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DFC1B6241D300FE1CFC /* pigones.wav */; };
+		9D476E191B6241D300FE1CFC /* rhinoceros.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DFD1B6241D300FE1CFC /* rhinoceros.wav */; };
+		9D476E1A1B6241D300FE1CFC /* rooster.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DFE1B6241D300FE1CFC /* rooster.wav */; };
+		9D476E1B1B6241D300FE1CFC /* seagulls.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476DFF1B6241D300FE1CFC /* seagulls.wav */; };
+		9D476E1C1B6241D300FE1CFC /* sheep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476E001B6241D300FE1CFC /* sheep.wav */; };
+		9D476E1D1B6241D300FE1CFC /* snake.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476E011B6241D300FE1CFC /* snake.wav */; };
+		9D476E1E1B6241D300FE1CFC /* tiger.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476E021B6241D300FE1CFC /* tiger.wav */; };
+		9D476E1F1B6241D300FE1CFC /* vulture.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476E031B6241D300FE1CFC /* vulture.wav */; };
+		9D476E201B6241D300FE1CFC /* wookpecker.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476E041B6241D300FE1CFC /* wookpecker.wav */; };
+		9D476E241B62430A00FE1CFC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D476E231B62430A00FE1CFC /* AVFoundation.framework */; };
+		9D476E641B62605D00FE1CFC /* lion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9D476E631B62605D00FE1CFC /* lion.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +50,34 @@
 		9D476DDE1B623E9200FE1CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D476DE11B623E9200FE1CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D476DE31B623E9200FE1CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D476DEA1B6241D300FE1CFC /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Cat.wav; path = ../../../../Desktop/sounds/Cat.wav; sourceTree = "<group>"; };
+		9D476DEB1B6241D300FE1CFC /* chicken.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = chicken.wav; path = ../../../../Desktop/sounds/chicken.wav; sourceTree = "<group>"; };
+		9D476DEC1B6241D300FE1CFC /* chimpanzee.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = chimpanzee.wav; path = ../../../../Desktop/sounds/chimpanzee.wav; sourceTree = "<group>"; };
+		9D476DED1B6241D300FE1CFC /* cow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = cow.wav; path = ../../../../Desktop/sounds/cow.wav; sourceTree = "<group>"; };
+		9D476DEE1B6241D300FE1CFC /* crow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = crow.wav; path = ../../../../Desktop/sounds/crow.wav; sourceTree = "<group>"; };
+		9D476DEF1B6241D300FE1CFC /* dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dog.wav; path = ../../../../Desktop/sounds/dog.wav; sourceTree = "<group>"; };
+		9D476DF01B6241D300FE1CFC /* duck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = duck.wav; path = ../../../../Desktop/sounds/duck.wav; sourceTree = "<group>"; };
+		9D476DF11B6241D300FE1CFC /* elephant.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = elephant.wav; path = ../../../../Desktop/sounds/elephant.wav; sourceTree = "<group>"; };
+		9D476DF21B6241D300FE1CFC /* goat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = goat.wav; path = ../../../../Desktop/sounds/goat.wav; sourceTree = "<group>"; };
+		9D476DF31B6241D300FE1CFC /* gorilla.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gorilla.wav; path = ../../../../Desktop/sounds/gorilla.wav; sourceTree = "<group>"; };
+		9D476DF41B6241D300FE1CFC /* horse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = horse.wav; path = ../../../../Desktop/sounds/horse.wav; sourceTree = "<group>"; };
+		9D476DF51B6241D300FE1CFC /* leopard.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = leopard.wav; path = ../../../../Desktop/sounds/leopard.wav; sourceTree = "<group>"; };
+		9D476DF71B6241D300FE1CFC /* mosquito.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = mosquito.wav; path = ../../../../Desktop/sounds/mosquito.wav; sourceTree = "<group>"; };
+		9D476DF81B6241D300FE1CFC /* nigtingale.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = nigtingale.wav; path = ../../../../Desktop/sounds/nigtingale.wav; sourceTree = "<group>"; };
+		9D476DF91B6241D300FE1CFC /* owl.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = owl.wav; path = ../../../../Desktop/sounds/owl.wav; sourceTree = "<group>"; };
+		9D476DFA1B6241D300FE1CFC /* peocock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = peocock.wav; path = ../../../../Desktop/sounds/peocock.wav; sourceTree = "<group>"; };
+		9D476DFB1B6241D300FE1CFC /* pig.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pig.wav; path = ../../../../Desktop/sounds/pig.wav; sourceTree = "<group>"; };
+		9D476DFC1B6241D300FE1CFC /* pigones.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = pigones.wav; path = ../../../../Desktop/sounds/pigones.wav; sourceTree = "<group>"; };
+		9D476DFD1B6241D300FE1CFC /* rhinoceros.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = rhinoceros.wav; path = ../../../../Desktop/sounds/rhinoceros.wav; sourceTree = "<group>"; };
+		9D476DFE1B6241D300FE1CFC /* rooster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = rooster.wav; path = ../../../../Desktop/sounds/rooster.wav; sourceTree = "<group>"; };
+		9D476DFF1B6241D300FE1CFC /* seagulls.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = seagulls.wav; path = ../../../../Desktop/sounds/seagulls.wav; sourceTree = "<group>"; };
+		9D476E001B6241D300FE1CFC /* sheep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sheep.wav; path = ../../../../Desktop/sounds/sheep.wav; sourceTree = "<group>"; };
+		9D476E011B6241D300FE1CFC /* snake.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = snake.wav; path = ../../../../Desktop/sounds/snake.wav; sourceTree = "<group>"; };
+		9D476E021B6241D300FE1CFC /* tiger.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = tiger.wav; path = ../../../../Desktop/sounds/tiger.wav; sourceTree = "<group>"; };
+		9D476E031B6241D300FE1CFC /* vulture.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = vulture.wav; path = ../../../../Desktop/sounds/vulture.wav; sourceTree = "<group>"; };
+		9D476E041B6241D300FE1CFC /* wookpecker.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = wookpecker.wav; path = ../../../../Desktop/sounds/wookpecker.wav; sourceTree = "<group>"; };
+		9D476E231B62430A00FE1CFC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9D476E631B62605D00FE1CFC /* lion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = lion.wav; path = ../../../../Desktop/sounds/lion.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D476E241B62430A00FE1CFC /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +95,7 @@
 		9D476DCB1B623E9100FE1CFC = {
 			isa = PBXGroup;
 			children = (
+				9D476E231B62430A00FE1CFC /* AVFoundation.framework */,
 				9D476DD61B623E9100FE1CFC /* Sounds */,
 				9D476DD51B623E9100FE1CFC /* Products */,
 			);
@@ -58,10 +116,45 @@
 				9D476DD91B623E9200FE1CFC /* ViewController.swift */,
 				9D476DDB1B623E9200FE1CFC /* Main.storyboard */,
 				9D476DDE1B623E9200FE1CFC /* Assets.xcassets */,
+				9D476E211B6241E000FE1CFC /* Supporting Files */,
 				9D476DE01B623E9200FE1CFC /* LaunchScreen.storyboard */,
 				9D476DE31B623E9200FE1CFC /* Info.plist */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		9D476E211B6241E000FE1CFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D476E631B62605D00FE1CFC /* lion.wav */,
+				9D476DEA1B6241D300FE1CFC /* Cat.wav */,
+				9D476DEB1B6241D300FE1CFC /* chicken.wav */,
+				9D476DEC1B6241D300FE1CFC /* chimpanzee.wav */,
+				9D476DED1B6241D300FE1CFC /* cow.wav */,
+				9D476DEE1B6241D300FE1CFC /* crow.wav */,
+				9D476DEF1B6241D300FE1CFC /* dog.wav */,
+				9D476DF01B6241D300FE1CFC /* duck.wav */,
+				9D476DF11B6241D300FE1CFC /* elephant.wav */,
+				9D476DF21B6241D300FE1CFC /* goat.wav */,
+				9D476DF31B6241D300FE1CFC /* gorilla.wav */,
+				9D476DF41B6241D300FE1CFC /* horse.wav */,
+				9D476DF51B6241D300FE1CFC /* leopard.wav */,
+				9D476DF71B6241D300FE1CFC /* mosquito.wav */,
+				9D476DF81B6241D300FE1CFC /* nigtingale.wav */,
+				9D476DF91B6241D300FE1CFC /* owl.wav */,
+				9D476DFA1B6241D300FE1CFC /* peocock.wav */,
+				9D476DFB1B6241D300FE1CFC /* pig.wav */,
+				9D476DFC1B6241D300FE1CFC /* pigones.wav */,
+				9D476DFD1B6241D300FE1CFC /* rhinoceros.wav */,
+				9D476DFE1B6241D300FE1CFC /* rooster.wav */,
+				9D476DFF1B6241D300FE1CFC /* seagulls.wav */,
+				9D476E001B6241D300FE1CFC /* sheep.wav */,
+				9D476E011B6241D300FE1CFC /* snake.wav */,
+				9D476E021B6241D300FE1CFC /* tiger.wav */,
+				9D476E031B6241D300FE1CFC /* vulture.wav */,
+				9D476E041B6241D300FE1CFC /* wookpecker.wav */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +188,7 @@
 				TargetAttributes = {
 					9D476DD31B623E9100FE1CFC = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 48ZJKHKX9L;
 					};
 				};
 			};
@@ -121,9 +215,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D476E641B62605D00FE1CFC /* lion.wav in Resources */,
+				9D476E0C1B6241D300FE1CFC /* duck.wav in Resources */,
+				9D476E161B6241D300FE1CFC /* peocock.wav in Resources */,
+				9D476E0D1B6241D300FE1CFC /* elephant.wav in Resources */,
+				9D476E141B6241D300FE1CFC /* nigtingale.wav in Resources */,
 				9D476DE21B623E9200FE1CFC /* LaunchScreen.storyboard in Resources */,
+				9D476E061B6241D300FE1CFC /* Cat.wav in Resources */,
+				9D476E191B6241D300FE1CFC /* rhinoceros.wav in Resources */,
 				9D476DDF1B623E9200FE1CFC /* Assets.xcassets in Resources */,
+				9D476E091B6241D300FE1CFC /* cow.wav in Resources */,
+				9D476E1B1B6241D300FE1CFC /* seagulls.wav in Resources */,
+				9D476E1D1B6241D300FE1CFC /* snake.wav in Resources */,
+				9D476E1A1B6241D300FE1CFC /* rooster.wav in Resources */,
+				9D476E151B6241D300FE1CFC /* owl.wav in Resources */,
+				9D476E071B6241D300FE1CFC /* chicken.wav in Resources */,
+				9D476E0A1B6241D300FE1CFC /* crow.wav in Resources */,
+				9D476E081B6241D300FE1CFC /* chimpanzee.wav in Resources */,
+				9D476E201B6241D300FE1CFC /* wookpecker.wav in Resources */,
+				9D476E1F1B6241D300FE1CFC /* vulture.wav in Resources */,
+				9D476E131B6241D300FE1CFC /* mosquito.wav in Resources */,
+				9D476E0E1B6241D300FE1CFC /* goat.wav in Resources */,
+				9D476E1C1B6241D300FE1CFC /* sheep.wav in Resources */,
+				9D476E0F1B6241D300FE1CFC /* gorilla.wav in Resources */,
 				9D476DDD1B623E9200FE1CFC /* Main.storyboard in Resources */,
+				9D476E181B6241D300FE1CFC /* pigones.wav in Resources */,
+				9D476E101B6241D300FE1CFC /* horse.wav in Resources */,
+				9D476E111B6241D300FE1CFC /* leopard.wav in Resources */,
+				9D476E1E1B6241D300FE1CFC /* tiger.wav in Resources */,
+				9D476E0B1B6241D300FE1CFC /* dog.wav in Resources */,
+				9D476E171B6241D300FE1CFC /* pig.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,22 +366,30 @@
 		9D476DE71B623E9200FE1CFC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Sounds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = malar.CB.Sounds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9D476DE81B623E9200FE1CFC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Sounds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = malar.CB.Sounds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -283,6 +412,7 @@
 				9D476DE81B623E9200FE1CFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

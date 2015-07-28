@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="AvenirNext.ttc">
+            <string>AvenirNext-Bold</string>
+            <string>AvenirNext-Heavy</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Sounds" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +22,188 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qo0-jm-Vyh">
+                                <rect key="frame" x="12" y="77" width="50" height="50"/>
+                                <state key="normal" title="Lion" image="lion"/>
+                                <connections>
+                                    <action selector="lionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ivj-Pr-gHS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ex-8c-zMg">
+                                <rect key="frame" x="85" y="77" width="50" height="50"/>
+                                <state key="normal" title="Tiger" image="tiger"/>
+                                <connections>
+                                    <action selector="tigerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KBK-Pe-4t8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMD-a8-Wfq">
+                                <rect key="frame" x="12" y="150" width="50" height="50"/>
+                                <state key="normal" title="Monkey" image="monkey"/>
+                                <connections>
+                                    <action selector="monkeyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Ca-r0-eIZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQF-Q6-phu">
+                                <rect key="frame" x="239" y="77" width="50" height="50"/>
+                                <state key="normal" title="Crow" image="crow"/>
+                                <connections>
+                                    <action selector="crowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VID-PP-Mqx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6j-0h-nPA">
+                                <rect key="frame" x="159" y="77" width="50" height="50"/>
+                                <state key="normal" title="Cat" image="cat"/>
+                                <connections>
+                                    <action selector="catButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U6X-RQ-bmZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSu-QF-Hox">
+                                <rect key="frame" x="85" y="150" width="50" height="50"/>
+                                <state key="normal" title="Elephant" image="elephant"/>
+                                <connections>
+                                    <action selector="elephantButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1kz-4c-0sQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8o-9W-Zbv">
+                                <rect key="frame" x="159" y="150" width="50" height="50"/>
+                                <state key="normal" title="Cow" image="cow"/>
+                                <connections>
+                                    <action selector="cowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BwO-S6-5y8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3S-Or-NwQ">
+                                <rect key="frame" x="231" y="150" width="50" height="50"/>
+                                <state key="normal" title="Chicken" image="chicken"/>
+                                <connections>
+                                    <action selector="chickenButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GDs-3A-yPo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSU-gh-dcN">
+                                <rect key="frame" x="20" y="221" width="50" height="50"/>
+                                <state key="normal" title="Dog" image="dog"/>
+                                <connections>
+                                    <action selector="dogButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6a1-BM-aFO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Qr-m9-GMD">
+                                <rect key="frame" x="85" y="221" width="50" height="50"/>
+                                <state key="normal" title="Horse" image="horse"/>
+                                <connections>
+                                    <action selector="horseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NgL-vy-OEt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Plb-cb-XUP">
+                                <rect key="frame" x="163" y="221" width="50" height="50"/>
+                                <state key="normal" title="Leopard" image="leopard"/>
+                                <connections>
+                                    <action selector="leopardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rvL-Ze-wd7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9Y-Gm-rCO">
+                                <rect key="frame" x="239" y="221" width="50" height="50"/>
+                                <state key="normal" title="Mosquito" image="Mosquito"/>
+                                <connections>
+                                    <action selector="mosquitoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A83-F3-9d0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ja-qA-itg">
+                                <rect key="frame" x="20" y="289" width="50" height="50"/>
+                                <state key="normal" title="Owl" image="owl"/>
+                                <connections>
+                                    <action selector="owlButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xSK-WS-Ua5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GnL-YK-Xfn">
+                                <rect key="frame" x="91" y="286" width="50" height="50"/>
+                                <state key="normal" title="Pig" image="pig"/>
+                                <connections>
+                                    <action selector="pigButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xxk-K7-5Yn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qyv-Vu-rqS">
+                                <rect key="frame" x="159" y="286" width="50" height="50"/>
+                                <state key="normal" title="Pigeon" image="pigeon"/>
+                                <connections>
+                                    <action selector="pigeonButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v76-Ga-8wY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nma-fv-VIF">
+                                <rect key="frame" x="239" y="286" width="50" height="50"/>
+                                <state key="normal" title="Rooster" image="rooster"/>
+                                <connections>
+                                    <action selector="roosterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="btk-85-Qgd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Animal Sounds" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JYg-z5-iw6">
+                                <rect key="frame" x="49" y="28" width="218" height="41"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
+                                <color key="textColor" red="0.9489889145" green="0.002764597157" blue="0.0018710268070000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Kg-xX-McN">
+                                <rect key="frame" x="91" y="365" width="50" height="50"/>
+                                <state key="normal" title="Snake" image="snake"/>
+                                <connections>
+                                    <action selector="snakeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IH2-kV-xh8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ARJ-VJ-mlf">
+                                <rect key="frame" x="158" y="365" width="50" height="50"/>
+                                <state key="normal" title="Peocock" image="peacock"/>
+                                <connections>
+                                    <action selector="peocockButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iER-9D-BeA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="98f-Jl-VK7">
+                                <rect key="frame" x="239" y="365" width="50" height="50"/>
+                                <state key="normal" title="Sheep" image="sheep"/>
+                                <connections>
+                                    <action selector="sheepButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KqS-aC-p80"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0h-5H-Dy3">
+                                <rect key="frame" x="20" y="365" width="50" height="50"/>
+                                <state key="normal" title="Rhinoceros" image="rhinoceros"/>
+                                <connections>
+                                    <action selector="rhinocerosButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dpH-EB-0GH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copyright © 2015 Malar@CB. All rights reserved." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEe-Gq-t6z">
+                                <rect key="frame" x="29" y="446" width="254" height="14"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="10"/>
+                                <color key="textColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-203" y="314"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Mosquito" width="128" height="128"/>
+        <image name="cat" width="256" height="256"/>
+        <image name="chicken" width="256" height="256"/>
+        <image name="cow" width="256" height="256"/>
+        <image name="crow" width="640" height="511"/>
+        <image name="dog" width="256" height="256"/>
+        <image name="elephant" width="204" height="204"/>
+        <image name="horse" width="256" height="256"/>
+        <image name="leopard" width="204" height="204"/>
+        <image name="lion" width="256" height="256"/>
+        <image name="monkey" width="256" height="256"/>
+        <image name="owl" width="256" height="256"/>
+        <image name="peacock" width="256" height="256"/>
+        <image name="pig" width="256" height="256"/>
+        <image name="pigeon" width="420" height="420"/>
+        <image name="rhinoceros" width="256" height="256"/>
+        <image name="rooster" width="256" height="256"/>
+        <image name="sheep" width="128" height="128"/>
+        <image name="snake" width="128" height="128"/>
+        <image name="tiger" width="256" height="256"/>
+    </resources>
 </document>
